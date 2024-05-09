@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My First Parcel App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+  </head>
+  <body>
+    <main class="container-fluid">
+      <form id="form">
+        <fieldset>
+          <label> Select ID Document </label>
+          <input type="file" name="" id="selectedImage" accept="image/*" />
+        </fieldset>
+
+        <fieldset>
+          <label for=""> Preview </label>
+          <img id="image" />
+        </fieldset>
+
+        <input type="submit" value="Check image" />
+      </form>
+      <span id="status"></span>
+    </main>
+  </body>
+  <script type="module" src="image-loader.ts"></script>
+  <script type="module" src="formHandler.ts"></script>
+</html>
