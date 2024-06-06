@@ -1,4 +1,4 @@
-const PROJECT_ID = 'okini-chat';
+const PROJECT_ID = 'okini-home';
 const REGION = 'us-central1';
 const MODEL_ID = 'gemini-experimental';
 
